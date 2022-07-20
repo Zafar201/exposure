@@ -52,7 +52,9 @@ function TransportMode() {
              </Col>
              <Col>
           
-             {/* <h1>Four wheeler</h1>  */}
+               <input type="time" />
+               <input type="time" />
+               <input type="time" />
              </Col>
              <Col>
           
@@ -60,6 +62,9 @@ function TransportMode() {
              </Col>
           
           
+            </Row>
+            <Row className='tr-box-4'>
+              <button>submit</button>
             </Row>
           </div> 
         </Container> 

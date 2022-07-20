@@ -13,6 +13,7 @@ code {
 }
 .main-heading h1 {
   text-align: center;
+  margin-top: 38px;
 }
 .carousel-indicators {
   display: none !important;
@@ -39,7 +40,7 @@ code {
   box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
   border-radius: 5px;
   width: 94%;
-  min-height: 46vh;
+  min-height: 50vh;
   margin-top: 80px !important;
 }
 .tr-box h2 {
@@ -75,8 +76,6 @@ code {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  /* identical to box height */
-
   margin-bottom: 17px;
   margin-top: 19px;
   color: #000000;
@@ -92,3 +91,24 @@ code {
 .tr-box-3{
   margin-top: 30px !important;
 }
+.tr-box-4 button{
+  background: #677875;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    width: 120px;
+    padding: 6px;
+    margin-bottom: 30px;
+}
+.tr-box-4 {
+  justify-content: center;
+}
+/* .carousel-control-next{
+  right: 506px;
+}
+.carousel-control-prev{
+  left: 515px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  bottom: -239px;
+} */
