@@ -1,13 +1,94 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.main-heading h1 {
+  text-align: center;
+}
+.carousel-indicators {
+  display: none !important;
+}
+.carousel-control-next-icon {
+  background-image: url("https://e7.pngegg.com/pngimages/2/756/png-clipart-arrow-computer-icons-the-next-version-angle-presentation-thumbnail.png") !important;
+}
+.carousel-control-prev-icon {
+  background-image: url("https://e7.pngegg.com/pngimages/2/756/png-clipart-arrow-computer-icons-the-next-version-angle-presentation-thumbnail.png") !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  top: 165px !important;
+  width: 4% !important;
+}
+.tr-center {
+  text-align: -webkit-center !important;
+  
+  text-align: -moz-center !important;
+}
+.tr-box {
+  background: rgba(217, 217, 217, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  width: 94%;
+  min-height: 46vh;
+  margin-top: 80px !important;
+}
+.tr-box h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #000000;
+  margin-top: 20px;
+}
+.tr-box-2 {
+  /* margin-top: 40px !important; */
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.tr-box-2 .col {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: auto;
+  margin: 50px !important;
+}
+.tr-box-2 img {
+  width: 80% !important;
+  padding-top: 30px;
+  height: 98px;
+  object-fit: contain;
+}
+.tr-box-2 h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  margin-bottom: 17px;
+  margin-top: 19px;
+  color: #000000;
+}
+.tr-box-3 input{
+  background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    width: 84%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.tr-box-3{
+  margin-top: 30px !important;
 }
