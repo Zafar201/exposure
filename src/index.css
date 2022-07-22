@@ -19,10 +19,10 @@ code {
   display: none !important;
 }
 .carousel-control-next-icon {
-  background-image: url("https://e7.pngegg.com/pngimages/2/756/png-clipart-arrow-computer-icons-the-next-version-angle-presentation-thumbnail.png") !important;
+  background-image: url("/public/assets/arrowblack.png") !important;
 }
 .carousel-control-prev-icon {
-  background-image: url("https://e7.pngegg.com/pngimages/2/756/png-clipart-arrow-computer-icons-the-next-version-angle-presentation-thumbnail.png") !important;
+  background-image: url("/public/assets/previousblack.png") !important;
 }
 .carousel-control-next,
 .carousel-control-prev {
@@ -35,7 +35,7 @@ code {
   text-align: -moz-center !important;
 }
 .tr-box {
-  background: rgba(217, 217, 217, 0.08);
+  background: #E5E5E5;
   border: 1px solid rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
   border-radius: 5px;
@@ -69,6 +69,7 @@ code {
   padding-top: 30px;
   height: 98px;
   object-fit: contain;
+  margin-bottom: 40px;
 }
 .tr-box-2 h1 {
   font-family: "Inter";
@@ -101,6 +102,26 @@ code {
 }
 .tr-box-4 {
   justify-content: center;
+}
+.hour span{
+  float: right;
+    font-weight: 900;
+    font-size: 27px;
+    width: 23px;
+}
+.hour input{
+  width:43%;
+  margin-left:45px
+}
+.minutes{
+  padding-left: 0px !important;
+}
+.bg{
+  background-color: #6495ed;
+  min-height: 100vh;
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity: 9 !important;
 }
 /* .carousel-control-next{
   right: 506px;

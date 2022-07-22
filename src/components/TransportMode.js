@@ -19,19 +19,19 @@ function TransportMode() {
           <Row className='tr-box-2'>
              <Col>
              <img src="/assets/scooter.png" alt="" />
-              <h1>two wheeler</h1> 
+              {/* <h1>two wheeler</h1>  */}
              </Col>
              <Col>
              <img src="/assets/car.png" alt="" />
-             <h1>Four wheeler</h1> 
+             {/* <h1>Four wheeler</h1>  */}
              </Col>
              <Col>
              <img src="/assets/bus.png" alt="" />
-             <h1>Bus</h1> 
+             {/* <h1>Bus</h1>  */}
              </Col>
              <Col>
              <img src="/assets/train.png" alt="" />
-             <h1>Train</h1> 
+             {/* <h1>Train</h1>  */}
              </Col>
             </Row>
           </div> 
@@ -46,16 +46,27 @@ function TransportMode() {
           <Row className='tr-box-3'>
              <Col md={7}>
              
-              <input type="text" placeholder='start location'/>
+              <input type="text"  placeholder='start location'/>
               <input type="text" placeholder='spot1'/>
               <input type="text" placeholder='spot2'/>
              </Col>
-             <Col>
+             <Col md={2} className='hour'>
           
-               <input type="time" />
-               <input type="time" />
-               <input type="time" />
+               <input type="number" placeholder='HH' min="0" max="12"/><span>:</span> 
+               <input type="number" placeholder='HH' min="0" max="12"/><span>:</span> 
+               <input type="number" placeholder='HH' min="0" max="12"/><span>:</span> 
              </Col>
+             {/* <Col md={1}>
+                <h4>:</h4>
+                <h4>:</h4>
+                <h4>:</h4>
+             </Col> */}
+             <Col md={1} className='minutes'>
+          
+              <input type="number" placeholder='MM' min="0" max="60"/>
+              <input type="number" placeholder='MM' min="0" max="60"/>
+             <input type="number" placeholder='MM' min="0" max="60"/>
+            </Col>
              <Col>
           
              {/* <h1>Bus</h1>  */}
