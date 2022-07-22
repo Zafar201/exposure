@@ -61,16 +61,18 @@ function TransportMode() {
                 <h4>:</h4>
                 <h4>:</h4>
              </Col> */}
-             <Col md={1} className='minutes'>
+             <Col md={3} className='minutes'>
           
-              <input type="number" placeholder='MM' min="0" max="60"/>
-              <input type="number" placeholder='MM' min="0" max="60"/>
-             <input type="number" placeholder='MM' min="0" max="60"/>
+              <input type="number" placeholder='MM' min="0" max="60"/><span style={{visibility:'hidden'}}>2hours 30 mintues</span>
+              <input type="number" placeholder='MM' min="0" max="60"/> <span>2hours 30 mintues</span>
+             <input type="number" placeholder='MM' min="0" max="60"/><span>2hours 30 mintues</span>
             </Col>
-             <Col>
-          
-             {/* <h1>Bus</h1>  */}
-             </Col>
+             {/* <Col>
+               <h1></h1>
+               <h6></h6>
+               <h6>2hours 30 mintues</h6>
+             
+             </Col> */}
           
           
             </Row>
